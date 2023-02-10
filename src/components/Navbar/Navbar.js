@@ -1,6 +1,7 @@
 import { Flex, Image } from '@chakra-ui/react'
 import SearchInput from './SearchInput'
 import RightContent from './RightContent'
+import Modal from './AuthModal'
 
 const Navbar = () => {
   return (
@@ -13,6 +14,7 @@ const Navbar = () => {
         />
       </Flex>
       <SearchInput />
+      <Modal />
       <RightContent />
     </Flex>
   )
